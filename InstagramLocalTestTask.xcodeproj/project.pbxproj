@@ -15,6 +15,8 @@
 		A19A4737282148B000FF5A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A4735282148B000FF5A26 /* LaunchScreen.storyboard */; };
 		A19A474828214B3900FF5A26 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A474728214B3900FF5A26 /* Registration.storyboard */; };
 		A19A474A282153F900FF5A26 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A4749282153F900FF5A26 /* Login.storyboard */; };
+		A19A474C2821599400FF5A26 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A474B2821599400FF5A26 /* Profile.storyboard */; };
+		A19A474E28215A7C00FF5A26 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A474D28215A7C00FF5A26 /* TabBar.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A19A4738282148B000FF5A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A19A474728214B3900FF5A26 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
 		A19A4749282153F900FF5A26 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A19A474B2821599400FF5A26 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		A19A474D28215A7C00FF5A26 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 			children = (
 				A19A474728214B3900FF5A26 /* Registration.storyboard */,
 				A19A4749282153F900FF5A26 /* Login.storyboard */,
+				A19A474B2821599400FF5A26 /* Profile.storyboard */,
+				A19A474D28215A7C00FF5A26 /* TabBar.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -197,7 +203,9 @@
 			files = (
 				A19A474A282153F900FF5A26 /* Login.storyboard in Resources */,
 				A19A4737282148B000FF5A26 /* LaunchScreen.storyboard in Resources */,
+				A19A474C2821599400FF5A26 /* Profile.storyboard in Resources */,
 				A19A474828214B3900FF5A26 /* Registration.storyboard in Resources */,
+				A19A474E28215A7C00FF5A26 /* TabBar.storyboard in Resources */,
 				A19A4734282148B000FF5A26 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
