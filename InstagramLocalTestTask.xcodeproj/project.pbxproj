@@ -17,6 +17,7 @@
 		A19A474A282153F900FF5A26 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A4749282153F900FF5A26 /* Login.storyboard */; };
 		A19A474C2821599400FF5A26 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A474B2821599400FF5A26 /* Profile.storyboard */; };
 		A19A474E28215A7C00FF5A26 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A474D28215A7C00FF5A26 /* TabBar.storyboard */; };
+		A19A47502821745400FF5A26 /* Posts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A474F2821745400FF5A26 /* Posts.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A19A4749282153F900FF5A26 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		A19A474B2821599400FF5A26 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		A19A474D28215A7C00FF5A26 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		A19A474F2821745400FF5A26 /* Posts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Posts.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		A19A474128214A1B00FF5A26 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A19A4751282179E600FF5A26 /* XIB */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -117,6 +120,7 @@
 				A19A4749282153F900FF5A26 /* Login.storyboard */,
 				A19A474B2821599400FF5A26 /* Profile.storyboard */,
 				A19A474D28215A7C00FF5A26 /* TabBar.storyboard */,
+				A19A474F2821745400FF5A26 /* Posts.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -141,6 +145,13 @@
 				A19A4730282148AE00FF5A26 /* InstagramLocalTestTask.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		A19A4751282179E600FF5A26 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 				A19A474828214B3900FF5A26 /* Registration.storyboard in Resources */,
 				A19A474E28215A7C00FF5A26 /* TabBar.storyboard in Resources */,
 				A19A4734282148B000FF5A26 /* Assets.xcassets in Resources */,
+				A19A47502821745400FF5A26 /* Posts.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

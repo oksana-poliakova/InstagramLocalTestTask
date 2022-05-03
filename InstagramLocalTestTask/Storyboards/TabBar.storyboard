@@ -20,11 +20,22 @@
                     </tabBar>
                     <connections>
                         <segue destination="9gJ-Um-XSH" kind="relationship" relationship="viewControllers" id="g0H-VT-boe"/>
+                        <segue destination="aC5-QQ-HVf" kind="relationship" relationship="viewControllers" id="fr1-ps-gEG"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oao-5V-vIe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-797" y="-232"/>
+        </scene>
+        <!--PostsNavigationController-->
+        <scene sceneID="ycN-Hm-Mr3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Posts" referencedIdentifier="PostsNavigationController" id="aC5-QQ-HVf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="dUH-uC-5pI"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pbr-q2-Fcs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1483" y="185"/>
         </scene>
         <!--ProfileNavigationController-->
         <scene sceneID="Scf-7d-YKU">

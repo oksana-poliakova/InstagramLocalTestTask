@@ -171,11 +171,11 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="137.94642857142856"/>
         </scene>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="d6M-nt-LwD">
             <objects>
                 <navigationController storyboardIdentifier="ProfileNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="WxN-Wg-zSC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="HkQ-ms-72C">
+                    <tabBarItem key="tabBarItem" title="Profile" id="HkQ-ms-72C">
                         <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <imageReference key="selectedImage" image="person" catalog="system" renderingMode="original"/>
                     </tabBarItem>
