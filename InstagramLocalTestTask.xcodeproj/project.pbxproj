@@ -14,6 +14,7 @@
 		A19A4734282148B000FF5A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19A4733282148B000FF5A26 /* Assets.xcassets */; };
 		A19A4737282148B000FF5A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A4735282148B000FF5A26 /* LaunchScreen.storyboard */; };
 		A19A474828214B3900FF5A26 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A474728214B3900FF5A26 /* Registration.storyboard */; };
+		A19A474A282153F900FF5A26 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A4749282153F900FF5A26 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A19A4736282148B000FF5A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A19A4738282148B000FF5A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A19A474728214B3900FF5A26 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		A19A4749282153F900FF5A26 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				A19A474728214B3900FF5A26 /* Registration.storyboard */,
+				A19A4749282153F900FF5A26 /* Login.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19A474A282153F900FF5A26 /* Login.storyboard in Resources */,
 				A19A4737282148B000FF5A26 /* LaunchScreen.storyboard in Resources */,
 				A19A474828214B3900FF5A26 /* Registration.storyboard in Resources */,
 				A19A4734282148B000FF5A26 /* Assets.xcassets in Resources */,
