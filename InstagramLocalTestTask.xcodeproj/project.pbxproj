@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A19A4728282148AE00FF5A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A4727282148AE00FF5A26 /* AppDelegate.swift */; };
 		A19A472A282148AE00FF5A26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A4729282148AE00FF5A26 /* SceneDelegate.swift */; };
-		A19A472C282148AE00FF5A26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A472B282148AE00FF5A26 /* ViewController.swift */; };
+		A19A472C282148AE00FF5A26 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A472B282148AE00FF5A26 /* RegistrationViewController.swift */; };
 		A19A4732282148AE00FF5A26 /* InstagramLocalTestTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A19A4730282148AE00FF5A26 /* InstagramLocalTestTask.xcdatamodeld */; };
 		A19A4734282148B000FF5A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19A4733282148B000FF5A26 /* Assets.xcassets */; };
 		A19A4737282148B000FF5A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A4735282148B000FF5A26 /* LaunchScreen.storyboard */; };
@@ -18,13 +18,17 @@
 		A19A474C2821599400FF5A26 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A474B2821599400FF5A26 /* Profile.storyboard */; };
 		A19A474E28215A7C00FF5A26 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A474D28215A7C00FF5A26 /* TabBar.storyboard */; };
 		A19A47502821745400FF5A26 /* Posts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19A474F2821745400FF5A26 /* Posts.storyboard */; };
+		A19A4753282292F500FF5A26 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A4752282292F500FF5A26 /* LoginViewController.swift */; };
+		A19A47552822930500FF5A26 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A47542822930500FF5A26 /* ProfileViewController.swift */; };
+		A19A47572822931A00FF5A26 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A47562822931A00FF5A26 /* PostsViewController.swift */; };
+		A19A47592822A2C700FF5A26 /* UIViewController+Externsions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A47582822A2C700FF5A26 /* UIViewController+Externsions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A19A4724282148AE00FF5A26 /* InstagramLocalTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLocalTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19A4727282148AE00FF5A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A19A4729282148AE00FF5A26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A19A472B282148AE00FF5A26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A19A472B282148AE00FF5A26 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		A19A4731282148AE00FF5A26 /* InstagramLocalTestTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstagramLocalTestTask.xcdatamodel; sourceTree = "<group>"; };
 		A19A4733282148B000FF5A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A19A4736282148B000FF5A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +38,10 @@
 		A19A474B2821599400FF5A26 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		A19A474D28215A7C00FF5A26 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
 		A19A474F2821745400FF5A26 /* Posts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Posts.storyboard; sourceTree = "<group>"; };
+		A19A4752282292F500FF5A26 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A19A47542822930500FF5A26 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A19A47562822931A00FF5A26 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		A19A47582822A2C700FF5A26 /* UIViewController+Externsions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Externsions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +90,10 @@
 		A19A473E28214A0100FF5A26 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A19A472B282148AE00FF5A26 /* ViewController.swift */,
+				A19A472B282148AE00FF5A26 /* RegistrationViewController.swift */,
+				A19A4752282292F500FF5A26 /* LoginViewController.swift */,
+				A19A47542822930500FF5A26 /* ProfileViewController.swift */,
+				A19A47562822931A00FF5A26 /* PostsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -116,10 +127,10 @@
 		A19A474228214A2900FF5A26 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				A19A474D28215A7C00FF5A26 /* TabBar.storyboard */,
 				A19A474728214B3900FF5A26 /* Registration.storyboard */,
 				A19A4749282153F900FF5A26 /* Login.storyboard */,
 				A19A474B2821599400FF5A26 /* Profile.storyboard */,
-				A19A474D28215A7C00FF5A26 /* TabBar.storyboard */,
 				A19A474F2821745400FF5A26 /* Posts.storyboard */,
 			);
 			path = Storyboards;
@@ -128,6 +139,7 @@
 		A19A474328214A7700FF5A26 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A19A47582822A2C700FF5A26 /* UIViewController+Externsions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -229,9 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A19A472C282148AE00FF5A26 /* ViewController.swift in Sources */,
+				A19A47572822931A00FF5A26 /* PostsViewController.swift in Sources */,
+				A19A47592822A2C700FF5A26 /* UIViewController+Externsions.swift in Sources */,
+				A19A47552822930500FF5A26 /* ProfileViewController.swift in Sources */,
+				A19A472C282148AE00FF5A26 /* RegistrationViewController.swift in Sources */,
 				A19A4728282148AE00FF5A26 /* AppDelegate.swift in Sources */,
 				A19A472A282148AE00FF5A26 /* SceneDelegate.swift in Sources */,
+				A19A4753282292F500FF5A26 /* LoginViewController.swift in Sources */,
 				A19A4732282148AE00FF5A26 /* InstagramLocalTestTask.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

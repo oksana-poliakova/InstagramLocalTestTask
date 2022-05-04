@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Registration View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegistrationViewController" id="Y6W-OH-hqX" customClass="RegistrationViewController" customModule="InstagramLocalTestTask" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +52,7 @@
                                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
                             </stackView>
@@ -66,6 +66,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="16"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="signUp" destination="Y6W-OH-hqX" eventType="touchUpInside" id="k3L-PR-JDm"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By signing up, you agree to our Terms, Data Policy and Cookies Policy." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZY-Cj-IyW">
                                 <rect key="frame" x="65" y="411" width="284" height="33.5"/>
@@ -90,6 +93,12 @@
                             <constraint firstItem="ymI-uY-vaE" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="xsn-Bt-grQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="cYS-ya-acv" id="gcV-Ih-dj5"/>
+                        <outlet property="fullNameTextField" destination="iu3-eA-mJi" id="Y8W-bF-ZTj"/>
+                        <outlet property="passwordTextField" destination="PTf-KQ-442" id="dlH-XJ-REx"/>
+                        <outlet property="usernameTextField" destination="GG7-Ij-q6e" id="RH5-CI-E7d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
