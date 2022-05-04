@@ -16,6 +16,8 @@ class RegistrationViewController: UIViewController {
     @IBOutlet private weak var usernameTextField: UITextField!
     @IBOutlet private weak var passwordTextField: UITextField!
     @IBOutlet private weak var signInButton: UIButton!
+    @IBOutlet private weak var scrollView: UIScrollView!
+    @IBOutlet private weak var contentView: UIView!
     
     // MARK: - ViewController life cycle
     
@@ -61,28 +63,31 @@ class RegistrationViewController: UIViewController {
         
     }
     
+    /// Hide keyboard
     @objc func hideKeyboard() {
         view.endEditing(true)
     }
     
+    /// Keyboard will show
     @objc func keyboardWillShow(notification: NSNotification) {
         if let keyboardFrame: NSValue = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue {
             let keyboardHeight = keyboardFrame.cgRectValue.height
-            let bottomSpace = view.frame.height - (signInButton.frame.origin.y + signInButton.frame.height)
-            view.frame.origin.y = keyboardHeight - bottomSpace + 10
+            scrollView.contentInset = UIEdgeInsets(top: .zero, left: .zero, bottom: keyboardHeight, right: .zero)
             UIView.animate(withDuration: 0.3) {
                 self.view.layoutIfNeeded()
             }
         }
     }
     
+    /// Keyboard will hide
     @objc func keyboardWillHide() {
-        view.frame.origin.y = 0
+        scrollView.contentInset = .zero
         UIView.animate(withDuration: 0.3) {
             self.view.layoutIfNeeded()
         }
     }
     
+    /// Deinit
     deinit {
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
