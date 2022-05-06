@@ -8,22 +8,62 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    
+    private let countCells: Int = 3
 
+    @IBOutlet private weak var avatarImageView: UIImageView!
+    @IBOutlet private weak var fullNameLabel: UILabel!
+    @IBOutlet private weak var editProfileButton: UIButton!
+    @IBOutlet private weak var galleryCollectionView: UICollectionView! {
+        didSet {
+            galleryCollectionView.delegate = self
+            galleryCollectionView.dataSource = self
+        }
+    }
+    
+    @IBOutlet private weak var photoCollectionViewCell: UICollectionViewCell!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        setupUI()
+   
+    }
+    
+    
+    
+    private func setupUI() {
+        
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize:24, weight: .bold)]
+        
+        avatarImageView.maskCircle(imageView: avatarImageView)
+        
+        editProfileButton.layer.cornerRadius = 6
+        editProfileButton.backgroundColor = .clear
+        editProfileButton.layer.borderWidth = 1
+        editProfileButton.layer.borderColor = UIColor.lightGray.cgColor
+        editProfileButton.titleLabel?.font = UIFont.systemFont(ofSize: 14, weight: .semibold)
     }
     
 
-    /*
-    // MARK: - Navigation
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension ProfileViewController: UICollectionViewDelegate {
+    
+}
+
+
+extension ProfileViewController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
     }
-    */
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
+    
+}
 
+extension ProfileViewController: UICollectionViewDelegateFlowLayout {
+    
 }

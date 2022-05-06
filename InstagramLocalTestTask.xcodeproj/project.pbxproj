@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1296C7928251D7600C19794 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1296C7828251D7600C19794 /* UIImageView+Extensions.swift */; };
+		A1296C7C28253AE400C19794 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1296C7B28253AE400C19794 /* PhotoCollectionViewCell.swift */; };
 		A19A4728282148AE00FF5A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A4727282148AE00FF5A26 /* AppDelegate.swift */; };
 		A19A472A282148AE00FF5A26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A4729282148AE00FF5A26 /* SceneDelegate.swift */; };
 		A19A472C282148AE00FF5A26 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A472B282148AE00FF5A26 /* RegistrationViewController.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1296C7828251D7600C19794 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		A1296C7B28253AE400C19794 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		A19A4724282148AE00FF5A26 /* InstagramLocalTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLocalTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19A4727282148AE00FF5A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A19A4729282148AE00FF5A26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1296C7A28253AA300C19794 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A1296C7B28253AE400C19794 /* PhotoCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		A19A471B282148AE00FF5A26 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +131,7 @@
 		A19A474128214A1B00FF5A26 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A1296C7A28253AA300C19794 /* Cells */,
 				A19A4751282179E600FF5A26 /* XIB */,
 			);
 			path = View;
@@ -140,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				A19A47582822A2C700FF5A26 /* UIViewController+Externsions.swift */,
+				A1296C7828251D7600C19794 /* UIImageView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -242,8 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19A47572822931A00FF5A26 /* PostsViewController.swift in Sources */,
+				A1296C7C28253AE400C19794 /* PhotoCollectionViewCell.swift in Sources */,
 				A19A47592822A2C700FF5A26 /* UIViewController+Externsions.swift in Sources */,
 				A19A47552822930500FF5A26 /* ProfileViewController.swift in Sources */,
+				A1296C7928251D7600C19794 /* UIImageView+Extensions.swift in Sources */,
 				A19A472C282148AE00FF5A26 /* RegistrationViewController.swift in Sources */,
 				A19A4728282148AE00FF5A26 /* AppDelegate.swift in Sources */,
 				A19A472A282148AE00FF5A26 /* SceneDelegate.swift in Sources */,
@@ -392,10 +408,11 @@
 				INFOPLIST_FILE = InstagramLocalTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Registration;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -422,10 +439,11 @@
 				INFOPLIST_FILE = InstagramLocalTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Registration;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
