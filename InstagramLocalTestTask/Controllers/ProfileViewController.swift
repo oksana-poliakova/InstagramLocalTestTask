@@ -93,6 +93,8 @@ extension ProfileViewController: UICollectionViewDelegateFlowLayout {
     }
 }
 
+// MARK: - PHPickerViewControllerDelegate
+
 extension ProfileViewController: PHPickerViewControllerDelegate {
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
         picker.dismiss(animated: true)
