@@ -28,6 +28,7 @@ class LoginViewController: UIViewController {
     // MARK: - Login
     
     @IBAction private func login() {
+        
         guard let email = emailTextField.text, !email.isEmpty else {
             showAlertWithTitle(title: "Fill your phone number, username or email", viewController: self)
             return
@@ -36,6 +37,23 @@ class LoginViewController: UIViewController {
         guard let password = passwordTextField.text, !password.isEmpty else {
             showAlertWithTitle(title: "Fill your password", viewController: self)
             return
+        }
+        
+        CoreDataManager.shared.getUsers().forEach {
+            if email != $0.email {
+                showAlertWithTitle(title: "This email does not exist", viewController: self)
+                return
+            }
+            
+            if password != $0.password {
+                showAlertWithTitle(title: "This password does not compare for this email", viewController: self)
+                return
+            }
+            
+            if email == $0.email && password == $0.password {
+                print("GOOD")
+                return
+            }
         }
         
     }

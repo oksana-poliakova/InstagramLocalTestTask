@@ -102,6 +102,8 @@ extension ProfileViewController: PHPickerViewControllerDelegate {
         results.forEach { result in
             result.itemProvider.loadObject(ofClass: UIImage.self) { reading, error in
                 guard let image = reading as? UIImage, error == nil else { return }
+                /// conversion image to Data()
+                let data = image.pngData()
                 print(image)
             }
         }
