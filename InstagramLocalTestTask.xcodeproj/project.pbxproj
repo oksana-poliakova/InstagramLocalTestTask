@@ -15,6 +15,7 @@
 		A144576F282A86100090A111 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144576E282A86100090A111 /* Post.swift */; };
 		A1445771282A89750090A111 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1445770282A89750090A111 /* CoreDataManager.swift */; };
 		A15CB17E28293B5200C5ACF6 /* PostEditing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15CB17D28293B5200C5ACF6 /* PostEditing.storyboard */; };
+		A189137A283BA4A500D08B7F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1891379283BA4A500D08B7F /* UserDefaultsManager.swift */; };
 		A19A4728282148AE00FF5A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A4727282148AE00FF5A26 /* AppDelegate.swift */; };
 		A19A472A282148AE00FF5A26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A4729282148AE00FF5A26 /* SceneDelegate.swift */; };
 		A19A472C282148AE00FF5A26 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A472B282148AE00FF5A26 /* RegistrationViewController.swift */; };
@@ -41,6 +42,7 @@
 		A144576E282A86100090A111 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		A1445770282A89750090A111 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		A15CB17D28293B5200C5ACF6 /* PostEditing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostEditing.storyboard; sourceTree = "<group>"; };
+		A1891379283BA4A500D08B7F /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		A19A4724282148AE00FF5A26 /* InstagramLocalTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLocalTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19A4727282148AE00FF5A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A19A4729282148AE00FF5A26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				A1445770282A89750090A111 /* CoreDataManager.swift */,
+				A1891379283BA4A500D08B7F /* UserDefaultsManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				A19A47572822931A00FF5A26 /* PostsViewController.swift in Sources */,
 				A1445759282A74FE0090A111 /* PostEditingViewController.swift in Sources */,
 				A1296C7C28253AE400C19794 /* PhotoCollectionViewCell.swift in Sources */,
+				A189137A283BA4A500D08B7F /* UserDefaultsManager.swift in Sources */,
 				A19A47592822A2C700FF5A26 /* UIViewController+Externsions.swift in Sources */,
 				A144576F282A86100090A111 /* Post.swift in Sources */,
 				A19A47552822930500FF5A26 /* ProfileViewController.swift in Sources */,

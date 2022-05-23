@@ -3,6 +3,7 @@
     <entity name="Post" representedClassName=".Post" syncable="YES">
         <attribute name="photo" optional="YES" attributeType="Binary"/>
         <attribute name="postDescription" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="posts" inverseEntity="User"/>
     </entity>
     <entity name="User" representedClassName=".User" syncable="YES">
@@ -14,7 +15,7 @@
         <relationship name="posts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Post" inverseName="user" inverseEntity="Post"/>
     </entity>
     <elements>
-        <element name="Post" positionX="-54" positionY="0" width="128" height="74"/>
+        <element name="Post" positionX="-54" positionY="0" width="128" height="89"/>
         <element name="User" positionX="-63" positionY="-18" width="128" height="119"/>
     </elements>
 </model>

@@ -39,6 +39,7 @@ class LoginViewController: UIViewController {
             return
         }
         
+        /// Checking if user exists in the local storage
         CoreDataManager.shared.getUsers().forEach {
             if email != $0.email {
                 showAlertWithTitle(title: "This email does not exist", viewController: self)

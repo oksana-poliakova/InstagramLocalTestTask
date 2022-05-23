@@ -13,4 +13,5 @@ final class Post: NSManagedObject {
     @NSManaged public var photo: Data
     @NSManaged public var postDescription: String
     @NSManaged public var user: User
+    @NSManaged public var uuid: UUID
 }
