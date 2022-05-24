@@ -22,7 +22,7 @@ final class CoreDataManager {
     
     // MARK: - Create User
     
-    public func createUser(email: String, fullname: String, password: String, username: String, avatar: Data) {
+    public func createUser(email: String, fullname: String, password: String, username: String, avatar: Data, completion: @escaping() -> ()) {
         context.perform {
             do {
                 let user = User(context: self.context)
@@ -33,6 +33,7 @@ final class CoreDataManager {
                 user.fullname = fullname
                 
                 try? self.context.save()
+                completion()
             }
         }
     }
@@ -64,7 +65,7 @@ final class CoreDataManager {
     public func getUser() -> User? {
         /// Use fetchRequest with Predicate to filter users by username(should be changed by id)
         let fetchRequest: NSFetchRequest<User> = User.fetchRequest()
-        fetchRequest.predicate = NSPredicate(format: "username == %@", UserDefaultsManager.shared.username)
+        fetchRequest.predicate = NSPredicate(format: "username == %@", UserDefaultsManager.shared.username ?? "")
         
         /// Here we use fetchResultController to receive fetched object(filtered by username) then getting our User
         let fetchedResultController = NSFetchedResultsController(fetchRequest: fetchRequest,

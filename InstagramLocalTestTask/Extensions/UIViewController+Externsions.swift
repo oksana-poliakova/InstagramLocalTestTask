@@ -15,4 +15,11 @@ extension UIViewController {
         alert.addAction(UIAlertAction(title: "OK", style: .default))
         viewController.present(alert, animated: true)
     }
+    
+    var sceneDelegate: SceneDelegate? {
+        for scene in UIApplication.shared.connectedScenes {
+            return scene.delegate as? SceneDelegate
+        }
+        return nil
+    }
 }

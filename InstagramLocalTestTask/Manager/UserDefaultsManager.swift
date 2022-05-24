@@ -14,11 +14,19 @@ final class UserDefaultsManager {
     
     private init() { }
     
-    func setUsername(_ name: String)  {
+    func setUsername(_ name: String?)  {
         UserDefaults.standard.set(name, forKey: "username")
     }
     
-    var username: String {
+    var username: String? {
         UserDefaults.standard.value(forKey: "username") as? String ?? ""
+    }
+    
+    func setAuthorization(_ bool: Bool) {
+        UserDefaults.standard.set(bool, forKey: "isAuthorized")
+    }
+    
+    var isAuthorized: Bool {
+        UserDefaults.standard.value(forKey: "isAuthorized") as? Bool ?? false
     }
 }

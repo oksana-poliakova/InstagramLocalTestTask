@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A1296C7928251D7600C19794 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1296C7828251D7600C19794 /* UIImageView+Extensions.swift */; };
 		A1296C7C28253AE400C19794 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1296C7B28253AE400C19794 /* PhotoCollectionViewCell.swift */; };
-		A1445757282A74C50090A111 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1445756282A74C50090A111 /* Storyboard.storyboard */; };
 		A1445759282A74FE0090A111 /* PostEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1445758282A74FE0090A111 /* PostEditingViewController.swift */; };
 		A144576B282A85F50090A111 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144576A282A85F50090A111 /* User.swift */; };
 		A144576F282A86100090A111 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144576E282A86100090A111 /* Post.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		A1296C7828251D7600C19794 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		A1296C7B28253AE400C19794 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
-		A1445756282A74C50090A111 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		A1445758282A74FE0090A111 /* PostEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditingViewController.swift; sourceTree = "<group>"; };
 		A144576A282A85F50090A111 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A144576E282A86100090A111 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 			children = (
 				A19A474D28215A7C00FF5A26 /* TabBar.storyboard */,
 				A19A474728214B3900FF5A26 /* Registration.storyboard */,
-				A1445756282A74C50090A111 /* Storyboard.storyboard */,
 				A19A4749282153F900FF5A26 /* Login.storyboard */,
 				A19A474B2821599400FF5A26 /* Profile.storyboard */,
 				A19A474F2821745400FF5A26 /* Posts.storyboard */,
@@ -269,7 +266,6 @@
 			files = (
 				A19A474A282153F900FF5A26 /* Login.storyboard in Resources */,
 				A19A4737282148B000FF5A26 /* LaunchScreen.storyboard in Resources */,
-				A1445757282A74C50090A111 /* Storyboard.storyboard in Resources */,
 				A19A474C2821599400FF5A26 /* Profile.storyboard in Resources */,
 				A19A474828214B3900FF5A26 /* Registration.storyboard in Resources */,
 				A19A474E28215A7C00FF5A26 /* TabBar.storyboard in Resources */,
@@ -444,7 +440,6 @@
 				INFOPLIST_FILE = InstagramLocalTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -475,7 +470,6 @@
 				INFOPLIST_FILE = InstagramLocalTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

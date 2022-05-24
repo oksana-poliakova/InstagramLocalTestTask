@@ -51,6 +51,11 @@ class RegistrationViewController: UIViewController {
             return
         }
 
+        CoreDataManager.shared.createUser(email: email, fullname: fullName, password: password, username: username, avatar: Data()) {
+            UserDefaultsManager.shared.setAuthorization(true)
+            UserDefaultsManager.shared.setUsername(username)
+            self.sceneDelegate?.resetRoot()
+        }
     }
     
     // MARK: - Show and hide keyboard when go to / out from the text field
